@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
-## Set up
+## Hot to Set up
 
 1. Download and install [Node.js](https://nodejs.org/en/).
 
@@ -12,10 +12,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 4. Clone this repository.
 
-5. Run `npm install`.
+## How to Run
 
-6. Run `mongod`.
+1. Run `npm install`.
 
-7. Run `npm start`.
+2. Run `mongod`.
 
-8. Go to http://localhost:3000/.
+3. Run `npm start`.
+
+4. Open a web browser then go to `http://localhost:3000` to see the web page.
