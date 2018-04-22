@@ -1,0 +1,36 @@
+<div class="container">
+  <h1>User List
+    <a [routerLink]="['/create-user']" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+  </a>
+  </h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Full Name</th>
+        <th>Gender</th>
+        <th>Email</th>
+        <th>Date & Time Added</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user._id }}</td>
+        <td>{{ user.first_name + " " + user.middle_name + " " + user.last_name }}</td>
+        <td>{{ user.gender }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.date_added | date: 'medium'}}</td>
+        <td>
+          <div class="row">
+            <div class="col-md-12">
+              <a [routerLink]="['/update-user', user._id]" class="btn btn-success">UPDATE</a>
+              <button class="btn btn-danger" type="button" (click)="confirmDelete(user._id)">DELETE</button>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
