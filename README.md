@@ -8,9 +8,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 2. Download and install [MongoDB](https://www.mongodb.com/download-center?jmp=nav#community).
 
-3. Create a folder named `data` in C:\. Create a folder named `db` in C:\data.
+3. Create a folder named `data` in C:\.
 
-4. Clone this repository.
+4. Create a folder named `db` in C:\data.
+
+5. Clone this repository.
 
 ## How to Run
 
