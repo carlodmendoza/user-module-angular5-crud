@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
-## Hot to Set up
+## How to Setup
 
 1. Download and install [Node.js](https://nodejs.org/en/).
 
